@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="Page-1" id="apRZbqa6yqKnVCvHGsi5">
-    <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,16 +26,68 @@
           <mxGeometry x="290" y="259.5" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0RfqDRnRJM8z3r35Uf8u-11" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.mobile" vertex="1" parent="1">
-          <mxGeometry x="550" y="110" width="35" height="50" as="geometry" />
+          <mxGeometry x="490" y="100" width="35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0RfqDRnRJM8z3r35Uf8u-12" target="0RfqDRnRJM8z3r35Uf8u-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0RfqDRnRJM8z3r35Uf8u-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.mobile" vertex="1" parent="1">
-          <mxGeometry x="558" y="250" width="35" height="50" as="geometry" />
+          <mxGeometry x="580" y="320" width="35" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0RfqDRnRJM8z3r35Uf8u-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="0RfqDRnRJM8z3r35Uf8u-11">
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="270" as="sourcePoint" />
-            <mxPoint x="480" y="209.5" as="targetPoint" />
+            <mxPoint x="413" y="310" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-21" value="User 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-22" value="User 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="567.5" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0RfqDRnRJM8z3r35Uf8u-23" target="0RfqDRnRJM8z3r35Uf8u-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-23" value="Subtract decoded user 2 signal from received signal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="567.5" y="85" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0RfqDRnRJM8z3r35Uf8u-11" target="0RfqDRnRJM8z3r35Uf8u-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="170" as="sourcePoint" />
+            <mxPoint x="635" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-30" value="Decoding of user 2 signal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="190" width="107.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.45;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0RfqDRnRJM8z3r35Uf8u-30" target="0RfqDRnRJM8z3r35Uf8u-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-32" value="Decoding of user 1 signal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-34" value="Decoding of user 2 signal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-36" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="270" as="sourcePoint" />
+            <mxPoint x="480" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="209.5" />
+              <mxPoint x="440" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="70" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-38" value="&lt;h2&gt;&lt;b&gt;SIC&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-39" value="NOMA Transmitter " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
