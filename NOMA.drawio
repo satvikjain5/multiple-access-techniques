@@ -86,8 +86,11 @@
         <mxCell id="0RfqDRnRJM8z3r35Uf8u-38" value="&lt;h2&gt;&lt;b&gt;SIC&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0RfqDRnRJM8z3r35Uf8u-39" value="NOMA Transmitter " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="440" y="230" width="60" height="30" as="geometry" />
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;NOMA Transmitter &lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="285" y="350" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0RfqDRnRJM8z3r35Uf8u-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;NOMA Receiver &lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="112.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
