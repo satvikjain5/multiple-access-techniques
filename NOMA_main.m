@@ -1,13 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%% Multiple Access Techniques %%%%
-%%%%%%%%%%% OMA and NOMA %%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-clc; clear all; close all
+clc; clear all;
 
 % Some global constants %
-N = 1e5;
-SNR = -20:30; % SNR range in dB
+N = 5.2e4;
+SNR = 0:35; % SNR range in dB
 snr = db2pow(SNR); % SNR range in linear scale
 
 %%%%% OMA Transmitter %%%%%
@@ -28,26 +23,9 @@ a2 = 0.25;
 % Superposition coding %
 x = sqrt(a1) * x1bpsk + sqrt(a2)*x2bpsk;
 
-% Plotting data signals %
-figure(1);
-subplot(211);
-stem(x1bpsk(1:100),'LineWidth',3);
-title('Data of user 1 (x_1)');
-grid on;
-subplot(212);
-stem(x2bpsk(1:100),'LineWidth',3);
-title('Data of user 2 (x_2)');
-grid on;
-
-% Plotting superposition signal %
-figure(2);
-stem(x(1:100),'LineWidth',3);
-title('Superposition coded signal at transmitter');
-grid on;
-
 %%%%% OMA Receiver %%%%%
 
-for i = 1:length(snr)
+for i = 1:length(snr)    
     x_awgn = awgn(x,SNR(i),'measured');
     x1_received = ones(1,N);
     x1_received(x_awgn < 0) = 0;
@@ -64,16 +42,15 @@ for i = 1:length(snr)
     end
 end
 
+
 % Plotting %
-figure(3);
-semilogy(SNR, ber1, 'linewidth', 3);
+figure;
+semilogy(SNR, ber1,'rx-','linewidth', 1);
 hold on;
-semilogy(SNR, ber2, 'linewidth', 3);
+semilogy(SNR, ber2,'co-', 'linewidth', 1);
 grid on;
 legend('UE 1 \alpha_1 = 0.75', 'UE 2 \alpha_2 = 0.25');
 xlabel('SNR (dB)');
 ylabel('BER');
-title('NOMA BER for AWGN');
-
-
+title('BER for BPSK using NOMA in a 10-tap Rayleigh channel');
 
